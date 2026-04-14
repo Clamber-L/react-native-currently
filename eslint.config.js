@@ -56,6 +56,7 @@ module.exports = defineConfig([
             'react/require-default-props': 'off',
             'react/jsx-props-no-spreading': 'off',
             'react/jsx-no-useless-fragment': 'off',
+            'react/jsx-curly-brace-presence': ['warn', { props: 'never', children: 'never' }],
             // Enforce arrow functions for components
             'react/function-component-definition': [
                 'error',
