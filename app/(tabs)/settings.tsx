@@ -6,11 +6,11 @@ import { styled } from 'react-native-css';
 //只有使用这种定义方式，才能使用native wind的css效果
 const SafeAreaView = styled(RnSafeAreaView);
 
-const Subscriptions = () => {
+const Settings = () => {
     return (
         <SafeAreaView className="flex-1 items-center justify-center bg-background">
-            <Text>Subscriptions</Text>
+            <Text>Setting</Text>
         </SafeAreaView>
     );
 };
-export default Subscriptions;
+export default Settings;
