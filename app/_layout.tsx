@@ -2,6 +2,8 @@ import { SplashScreen, Stack } from 'expo-router';
 import { useFonts } from 'expo-font';
 import { useEffect } from 'react';
 
+SplashScreen.preventAutoHideAsync();
+
 // layout 控制整个文件夹下的配置内容
 const RootLayout = () => {
     const [fontsLoaded] = useFonts({
